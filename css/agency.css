@@ -11,9 +11,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #3eafb5; }
   a:hover, a:focus, a:active, a.active {
-    color: #fec503; }
+    color: #238991; }
 
 h1,
 h2,
@@ -41,14 +41,14 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 100px 0; } }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #3eafb5;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #3eafb5;
   text-shadow: none; }
 
 img::selection {
@@ -58,7 +58,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #3eafb5; }
 
 #mainNav {
   background-color: #222222; }
@@ -69,16 +69,16 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #3eafb5;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-      color: #fed136;
+      color: #3eafb5;
       font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
-        color: #fec503; }
+        color: #238991; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 90%;
       font-weight: 400;
@@ -88,7 +88,7 @@ body {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: #fed136; }
+        color: #3eafb5; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -124,7 +124,7 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
@@ -142,7 +142,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
