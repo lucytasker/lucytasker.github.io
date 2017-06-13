@@ -8,7 +8,7 @@ header.masthead {
     background-position: center center;
     @include background-cover;
     .intro-text {
-        padding-top: 100px;
+        padding-top: 10px;
         padding-bottom: 50px;
         .intro-lead-in {
             font-size: 22px;
@@ -30,7 +30,7 @@ header.masthead {
 @media(min-width:768px) {
     header.masthead {
         .intro-text {
-            padding-top: 10px;
+            padding-top: 100px;
             padding-bottom: 200px;
             .intro-lead-in {
                 font-size: 40px;
