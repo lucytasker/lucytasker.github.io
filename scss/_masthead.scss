@@ -2,13 +2,13 @@
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/heade-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     @include background-cover;
     .intro-text {
-        padding-top: 10px;
+        padding-top: 100px;
         padding-bottom: 50px;
         .intro-lead-in {
             font-size: 22px;
