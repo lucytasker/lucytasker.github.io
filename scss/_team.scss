@@ -1,12 +1,13 @@
 // Styling for the team section
 .team-member {
     margin-bottom: 50px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     text-align: center;
     img {
         width: 225px;
         height: 225px;
-        border: 7px solid white;
+        border: 7px;
+        border-color: #f1f1f1;
     }
     h4 {
         margin-top: 25px;
