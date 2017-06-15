@@ -438,7 +438,12 @@ section#contact {
   background-color: #ffffff;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {
