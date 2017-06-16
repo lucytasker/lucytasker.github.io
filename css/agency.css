@@ -38,14 +38,6 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-  section h5.section-subsubheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    color: #ffffff;
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -454,6 +446,8 @@ section#contact {
   background-size: cover; }
   section#contact .section-heading {
     color: white; }
+  section#contact .section-subheading {
+    color: white; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
@@ -473,19 +467,19 @@ section#contact {
     text-transform: uppercase; }
   section#contact :-moz-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #d2d2d2;
     /* Firefox 18- */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #d2d2d2;
     /* Firefox 19+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #d2d2d2;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
