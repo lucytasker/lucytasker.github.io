@@ -7,10 +7,6 @@ section#contact {
     .section-heading {
         color: white;
     }
-    .section-subheading {
-        color:white;
-    }
-
     .form-group {
         margin-bottom: 25px;
         input,
@@ -30,24 +26,24 @@ section#contact {
     }
     ::-webkit-input-placeholder {
         font-weight: 700;
-        color: $silver;
+        color: $white;
         @include heading-font;
     }
     :-moz-placeholder {
         font-weight: 700;
-        color: $silver;
+        color: $white;
         /* Firefox 18- */
         @include heading-font;
     }
     ::-moz-placeholder {
         font-weight: 700;
-        color: $silver;
+        color: $white;
         /* Firefox 19+ */
         @include heading-font;
     }
     :-ms-input-placeholder {
         font-weight: 700;
-        color: $silver;
+        color: $white;
         @include heading-font;
     }
     .text-danger {
